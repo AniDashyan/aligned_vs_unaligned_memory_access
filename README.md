@@ -111,5 +111,4 @@ For large arrays (e.g., 1 million doubles = 8 MB), aligned access typically outp
 - **Small Sizes**: Cache prefetching and loop overhead dominate. Unaligned loads may seem faster.
 - **Large Sizes**: Memory bandwidth and cache efficiency dominate. Aligned loads are significantly faster.
 
-This project highlights the importance of memory alignment in achieving optimal SIMD performance, particularly in high-throughput, data-intensive applications.
-```
+This project highlights the importance of memory alignment in achieving optimal SIMD performance.
